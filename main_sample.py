@@ -25,7 +25,7 @@ logtype_dict={"gray":"DEBUG",
                 "stream":"INFO"} 
 
 
-c_logger= CustomLogger(name="test_logger_dev01", 
+c_logger= CustomLogger(name="test_logger", 
             config_path="log_utils/logging_gray.ini",
             logtype_dict=logtype_dict)
 
